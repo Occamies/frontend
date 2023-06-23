@@ -1,0 +1,35 @@
+@import "./scss/custom";
+
+
+.textcon {
+  display: flex;
+  justify-content: space-around;
+  section {
+    width: 45%;
+  }
+
+}
+
+.cardCon {
+  display: flex;
+  justify-content: space-around;
+
+  div {
+    width: 45%;
+  }
+
+}
+
+.btn {
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+
+
+.sliderBg {
+  width: 100%;
+  height: 100%;
+}

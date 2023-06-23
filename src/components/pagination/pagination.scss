@@ -1,0 +1,11 @@
+.pagination-container {
+  display: flex;
+  gap: 2px  ;
+  :last-child,
+  :first-child {
+    white-space: nowrap;
+  }
+  .active {
+    background-color: darkslategray;
+  }
+}
